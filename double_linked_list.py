@@ -204,8 +204,7 @@ if __name__=="__main__":
   colors.push("Cadmium Yellow Light")
   colors.push("dark green")
   print(colors.to_list())
-  colors.remove_at(3)
-  print(colors.to_list())
+  print(colors.print_backward())
   #colors.remove("dark green")
   #print(colors.to_list())
   

@@ -9,6 +9,10 @@ class Node(object):
 
 
 class Stack(object):
+  """
+  A stack is an ordered list in which insertion and deletion are done at one end, called top. 
+  The last element inserted is the first one to be deleted. Hence, it is called the Last in First out (LIFO) or First in Last Out (FILO) list."""
+
   def __init__(self):
     self.top = None
 
