@@ -128,6 +128,13 @@ class SingleLinkedList(object):
       itr = itr.next
       counts += 1
       
+  def search(self, obj):
+    node = self.head
+    while node:
+      if node.value == obj:
+        return True 
+      node = node.next
+      
 
   def insert_at(self, index, obj):
     """Insert object at index."""

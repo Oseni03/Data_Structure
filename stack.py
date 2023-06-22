@@ -66,7 +66,7 @@ class Stack_2(object):
       print ('Stack Overflow!')
     else: 
       self.stk.append(item) 
-      print ('Stack after Push',self.stk)
+      #print ('Stack after Push',self.stk)
 
   def pop(self): 
     if len(self.stk) <= 0: 
